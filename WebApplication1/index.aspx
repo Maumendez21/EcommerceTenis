@@ -52,6 +52,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 					<nav>
 						<ul>
+							<li><a href="index.aspx" class="active">
+                                <asp:Label ID="username" runat="server" Text="Label"></asp:Label></a></li>
 							<li><a href="index.aspx" class="active">Home</a></li>
 							<li><a href="about.aspx">About</a></li>
 							<li><a href="404.aspx">Team</a></li>
@@ -63,32 +65,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="mobile-nav-button">
 					<button id="trigger-overlay" type="button"><i class="fa fa-bars" aria-hidden="true"></i></button>
 				</div>
-				<!-- cart details -->
-				<div class="top_nav_right">
-					<div class="shoecart shoecart2 cart cart box_1">
-						<form action="#" method="post" class="last">
-							<input type="hidden" name="cmd" value="_cart"/>
-							<input type="hidden" name="display" value="1"/>
-							<button class="top_shoe_cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-						</form>
-					</div>
 
-				</div>
-				<!-- //cart details -->
-				<!-- search -->
-				<div class="search_w3ls_agileinfo">
-					<div class="cd-main-header">
-						<ul class="cd-header-buttons">
-							<li><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
-						</ul>
-					</div>
-					<div id="cd-search" class="cd-search">
-						<form action="#" method="post">
-							<input name="Search" type="search" placeholder="Click enter after typing..."/>
-						</form>
-					</div>
-				</div>
-				<!-- //search -->
+			
+
+
+				
+				
 
 				<div class="clearfix"></div>
 			</div>
@@ -152,190 +134,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //banner -->
-	<!-- /girds_bottom-->
-	<div class="grids_bottom">
-		<div class="style-grids">
-			<div class="col-md-6 style-grid style-grid-1">
-				<img src="images/b1.jpg" alt="shoe"/>
-			</div>
-		</div>
-		<div class="col-md-6 style-grid style-grid-2">
-			<div class="style-image-1_info">
-				<div class="style-grid-2-text_info">
-					<h3>Nike DOWNSHIFTER</h3>
-					<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.sed quia non numquam eius modi
-						tempora incidunt ut labore et dolore .</p>
-					<div class="shop-button">
-						<a href="shop.aspx">Shop Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="style-image-2">
-				<img src="images/b2.jpg" alt="shoe"/>
-				<div class="style-grid-2-text">
-					<h3>Air force</h3>
-				</div>
-			</div>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-	<!-- //grids_bottom-->
-	<!-- /girds_bottom2-->
-	<div class="grids_sec_2">
-		<div class="style-grids_main">
-			<div class="col-md-6 grids_sec_2_left">
-				<div class="grid_sec_info">
-					<div class="style-grid-2-text_info">
-						<h3>Sneakers</h3>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.sed quia non numquam eius modi
-							tempora incidunt ut labore .</p>
-						<div class="shop-button">
-							<a href="shop.aspx">Shop Now</a>
-						</div>
-					</div>
-				</div>
-				<div class="style-image-2">
-					<img src="images/b4.jpg" alt="shoe"/>
-					<div class="style-grid-2-text">
-						<h3>Air force</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 grids_sec_2_left">
-
-				<div class="style-image-2">
-					<img src="images/b3.jpg" alt="shoe"/>
-					<div class="style-grid-2-text">
-						<h3>Air force</h3>
-					</div>
-				</div>
-				<div class="grid_sec_info last">
-					<div class="style-grid-2-text_info">
-						<h3>Sneakers</h3>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.sed quia non numquam eius modi
-							tempora incidunt ut labore .</p>
-						<div class="shop-button two">
-							<a href="shop.aspx">Shop Now</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-	<!-- //grids_bottom2-->
-	<!-- /Properties -->
-	<div class="mid_slider_w3lsagile">
-		<div class="col-md-3 mid_slider_text">
-			<h5>Some More Shoes</h5>
-		</div>
-		<div class="col-md-9 mid_slider_info">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1" class=""></li>
-					<li data-target="#myCarousel" data-slide-to="2" class=""></li>
-					<li data-target="#myCarousel" data-slide-to="3" class=""></li>
-				</ol>
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<div class="row">
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g2.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g3.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g4.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="row">
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g5.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g6.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g2.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="row">
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g2.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g3.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g4.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="row">
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g2.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g3.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g4.jpg" alt="Image" style="max-width:100%;"/></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-			<span class="fa fa-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-			<span class="fa fa-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-				<!-- The Modal -->
-
-			</div>
-		</div>
-
-		<div class="clearfix"> </div>
-	</div>
-	<!--//banner -->
-
-	<!-- /newsletter-->
-	<div class="newsletter_w3layouts_agile">
-		<div class="col-sm-6 newsleft">
-			<h3>Sign up for Newsletter !</h3>
-		</div>
-		<div class="col-sm-6 newsright">
-			<form action="#" method="post">
-				<input type="email" placeholder="Enter your email..." name="email" required=""/>
-				<input type="submit" value="Submit"/-/>
-			</form>
-		</div>
-
-		<div class="clearfix"></div>
-	</div>
-	<!-- //newsletter-->
+	
 	<!-- footer -->
 	<div class="footer_agileinfo_w3">
 		<div class="footer_inner_info_w3ls_agileits">
