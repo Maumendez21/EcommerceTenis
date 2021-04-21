@@ -38,7 +38,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			<div class="header_agileits">
 				<div class="logo">
-					<h1><a class="navbar-brand" href="index.aspx"><span>Downy</span> <i>Shoes</i></a></h1>
+					<h1><span>Downy</span> <i>Shoes</i></a></h1>
 				</div>
 				<div class="overlay overlay-contentpush">
 					<button type="button" class="overlay-close"><i class="fa fa-times" aria-hidden="true"></i></button>
@@ -47,7 +47,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="index.aspx" class="active">
                                 <asp:Label ID="username" runat="server" Text="Label"></asp:Label></a></li>
-							<li><a href="index.aspx" class="active">Home</a></li>
+							<li><a href="Login.aspx" class="active">Salir</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -174,6 +174,88 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
         
     </form>
+
+	<!-- footer -->
+	<div class="footer_agileinfo_w3">
+		<div class="footer_inner_info_w3ls_agileits">
+			<div class="col-md-3 footer-left">
+				<h2>Ecommerce</h2>
+				
+				<ul class="social-nav model-3d-0 footer-social social two">
+					<li>
+						<a href="#" class="facebook">
+							<div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+							<div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="twitter">
+							<div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+							<div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="instagram">
+							<div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+							<div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="pinterest">
+							<div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+							<div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-9 footer-right">
+				<div class="sign-grds">
+
+					<div class="col-md-5 sign-gd-two">
+						
+						<div class="address">
+							<div class="address-grid">
+								<div class="address-left">
+									<i class="fa fa-phone" aria-hidden="true"></i>
+								</div>
+								<div class="address-right">
+									<h6>Mauro Mendez Merino</h6>
+
+								</div><div class="address-right">
+									<h6>Juan Rodolfo Marquez Lopez</h6>
+								
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="address-grid">
+								<div class="address-left">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+								<div class="address-right">
+									<h6>Producto 3</h6>
+
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="address-grid">
+								<div class="address-left">
+									<i class="fa fa-map-marker" aria-hidden="true"></i>
+								</div>
+								<div class="address-right">
+									<h6>Universidad Tecnologica de Puebla</h6>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+
+			<p class="copy-right-w3ls-agileits">&copy 2021 Desarrollo Web Profesional  | Universidad Teconologica de Puebla 8° B</p>
+		</div>
+	</div>
 
 
 	<style>

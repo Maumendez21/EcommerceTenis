@@ -23,9 +23,7 @@ namespace WebApplication1
             username.Text = user1.Nombre;
 
             // se carga el datagrid y se inicializan las variables en la vista
-            cargarProduct();
-
-           
+            cargarProduct();         
 
         }
 
